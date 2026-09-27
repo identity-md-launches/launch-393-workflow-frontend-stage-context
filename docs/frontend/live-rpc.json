@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-27T07:19:12.129Z",
+  "checks": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x2e5110f8a8826d40718d6f65674ad2309a4f5a67",
+          "codeBytes": 1723
+        },
+        {
+          "name": "ETHStakingRewards",
+          "address": "0x22dd0156a547e69b13610f293df15dfc3dfeb885",
+          "codeBytes": 3595
+        }
+      ],
+      "token": "0x2E5110f8A8826d40718d6F65674ad2309A4F5a67"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x2e5110f8a8826d40718d6f65674ad2309a4f5a67",
+          "codeBytes": 1723
+        },
+        {
+          "name": "ETHStakingRewards",
+          "address": "0x22dd0156a547e69b13610f293df15dfc3dfeb885",
+          "codeBytes": 3595
+        }
+      ],
+      "token": "0x2E5110f8A8826d40718d6F65674ad2309A4F5a67"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x2e5110f8a8826d40718d6f65674ad2309a4f5a67",
+          "codeBytes": 1723
+        },
+        {
+          "name": "ETHStakingRewards",
+          "address": "0x22dd0156a547e69b13610f293df15dfc3dfeb885",
+          "codeBytes": 3595
+        }
+      ],
+      "token": "0x2E5110f8A8826d40718d6F65674ad2309A4F5a67"
+    }
+  ]
+}

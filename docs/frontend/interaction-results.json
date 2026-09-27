@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-27T07:23:21.952Z",
+  "productionSubpath": "/preview/",
+  "sourceCommit": "eb6bd8205f166c826b4eff98e1e1287626f09687",
+  "assets": [
+    {
+      "path": "abi/ETHStakingRewards.json",
+      "sha256": "03f76181faeb588e41dfc59f50b33febf398aaa1f4e5f31952cda7264f5b33f5"
+    },
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "assets/chain-B_p9Hfq_.js",
+      "sha256": "b88ea88ba242476d85147d555ce52f8059d7b2a191b4ab74e5d5170b820d3135"
+    },
+    {
+      "path": "assets/index-Biyjbt2z.js",
+      "sha256": "cff622ded662c3ad2fdfacca92453c18ed837fac568d608af31760bab133217a"
+    },
+    {
+      "path": "assets/index-EOIdRA5A.css",
+      "sha256": "dc4bd043420762d8e44bf6bd05565a0db962d43ff091be18c8337de73e25a922"
+    },
+    {
+      "path": "assets/react-Ba7dsKmx.js",
+      "sha256": "4bb22f39bb836b938aecded6e139b89db32a847c3ce6ae16a114baabcc1ed5a8"
+    },
+    {
+      "path": "index.html",
+      "sha256": "1383da4ca8b08fc7bf41aeaf18f36ad7142b518971f7c89f3f9f26ccc6b38538"
+    }
+  ],
+  "checks": 24,
+  "passed": [
+    "Subpath assets, disconnected controls, public stream reads",
+    "Missing wallet has a recoverable explanation",
+    "Wallet connection rejection and retry",
+    "Wrong chain, unknown-chain add, switch retry, exact handoff parameters",
+    "Zero, excess balance and overprecision inputs never reach signing",
+    "Exact approval then stake, simulation, receipt and read refresh",
+    "Withdraw amount and max control",
+    "Claim ETH keeps stake, exit returns all and claims",
+    "Donation minimum, irreversible copy, active top-up is queued",
+    "Ended stream reports zero; restart eligibility and restream",
+    "Zero stake carries emissions and prevents restream",
+    "Simulation revert blocks wallet signature and displays reason",
+    "Wallet rejection recovers with no transaction",
+    "Reverted receipt is not shown as success",
+    "Wallet account and chain events clear state and gate writes",
+    "Live-read failure gates writes; retry recovers",
+    "Missing contract code and token-binding mismatch block actions",
+    "RPC chain mismatch gates writes",
+    "Tampered ABI blocks runtime configuration",
+    "Keyboard focus, labels, validation and primary action via keyboard",
+    "Axe accessibility scan at desktop and 320px",
+    "320, 390, 704, 880 and 1280px reflow with screenshots",
+    "200% text enlargement and reduced-motion reflow",
+    "No uncaught browser JavaScript errors"
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "width": 704,
+      "scroll": 704
+    },
+    {
+      "width": 880,
+      "scroll": 880
+    },
+    {
+      "width": 1280,
+      "scroll": 1280
+    }
+  ],
+  "consoleErrors": [],
+  "contrast": [
+    {
+      "selector": ".intro-copy",
+      "fg": "rgb(102, 108, 92)",
+      "bg": "rgb(245, 244, 238)",
+      "ratio": 4.931367130389563
+    },
+    {
+      "selector": ".stream .caption",
+      "fg": "rgb(102, 108, 92)",
+      "bg": "rgb(232, 237, 220)",
+      "ratio": 4.548633897051587
+    },
+    {
+      "selector": "h2",
+      "fg": "rgb(37, 46, 35)",
+      "bg": "rgb(232, 237, 220)",
+      "ratio": 11.768048751281555
+    },
+    {
+      "selector": ".primary",
+      "fg": "rgb(255, 254, 250)",
+      "bg": "rgb(62, 84, 38)",
+      "ratio": 8.320517367960646
+    },
+    {
+      "selector": ".label",
+      "fg": "rgb(102, 108, 92)",
+      "bg": "rgb(232, 237, 220)",
+      "ratio": 4.548633897051587
+    },
+    {
+      "selector": ".field-error",
+      "fg": "rgb(146, 47, 36)",
+      "bg": "rgb(255, 254, 250)",
+      "ratio": 7.839848806882409
+    }
+  ]
+}

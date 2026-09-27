@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-341-ethstakingrewards",
+  "version": 1,
+  "launchId": "cad40951-4d01-4a3f-8be0-049fcb10c2f7",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Intended only for Sepolia (11155111). This test toy lets users stake TRKL and share donated test ETH streamed over seven days; it promises no yield or return. ETHStakingRewards stores the launch token address immutably, has no owner or admin, needs no initial TRKL balance, and requires no initialization calls. The factory supplies the native ETH/TRKL pool and MerkleDistributor; the pool has no hook. initialPrice is decimal sqrtPriceX96; services derive the effective opening price from the pinned policy when applicable. Policy, signed artifact linkage, admission and deployment belong to services and are not asserted as completed by this manifest.",
+    "token": {
+      "name": "Trickle",
+      "symbol": "TRKL",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "ETHStakingRewards",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x6c821f2ec556a2f48b49399b5c2879750abc41f58750799a559b79e084b345d5",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0x2e5110f8a8826d40718d6f65674ad2309a4f5a67",
+      "blockNumber": 11791681,
+      "creationCodeHash": "1d7ed56f938b4fb00361dd98fe82b116162ec9f00e9c44b21666a9ed0203989a"
+    },
+    {
+      "name": "ETHStakingRewards",
+      "txHash": "0x6c821f2ec556a2f48b49399b5c2879750abc41f58750799a559b79e084b345d5",
+      "abiHash": "56de46da8d0209c1aad7ecf732cb5d82d5ba5f7f39bc4ddd629ee92da454d3ba",
+      "address": "0x22dd0156a547e69b13610f293df15dfc3dfeb885",
+      "blockNumber": 11791681,
+      "creationCodeHash": "5ed29222c45ff82e922741d913748ca32e30cc4acb6ce4352969206daaa741df"
+    }
+  ],
+  "sourceCommit": "eb6bd8205f166c826b4eff98e1e1287626f09687",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "1fa4be5d9d5d9ced323efca700eda008744e5ce2e5fe35cedf5448cb38202709"
+}

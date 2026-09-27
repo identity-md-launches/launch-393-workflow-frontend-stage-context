@@ -1,0 +1,9 @@
+# Explicit path budget: web/.gitignore, <= 512 bytes.
+# Applies at every depth beneath web/.
+node_modules/
+.npm/
+.cache/
+.vite/
+playwright-report/
+test-results/
+*.tsbuildinfo
